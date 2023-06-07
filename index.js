@@ -1,3 +1,29 @@
+document.getElementById("btn-1").addEventListener("click",function(){
+    const addAmount1 = document.getElementById("food").value;
+    const addAmount2 = document.getElementById("rent").value;
+    const addAmount3 = document.getElementById("clothes").value;
+    const addAmount4 = document.getElementById("income").value;
+
+    // document.getElementById("tex").innerHTML = parseFloat(addAmount1) + parseFloat(addAmount2)
+    //         + parseFloat(addAmount3); 
+
+    const addAmount = parseFloat(addAmount1) + parseFloat(addAmount2) + parseFloat(addAmount3);
+
+    if(parseFloat(addAmount4) > parseFloat(addAmount)){
+        const addAmount5 = parseFloat(addAmount4) - parseFloat(addAmount);
+        document.getElementById("tex").innerHTML = addAmount;
+        document.getElementById("bal").innerHTML = addAmount5;
+    }
+    else{alert( "can't calculate..." )}
+    
+
+    
+
+
+
+
+});
+ 
 document.getElementById("btn-2").addEventListener("click",function(){
 
     const addAmount1 = document.getElementById("food").value;
