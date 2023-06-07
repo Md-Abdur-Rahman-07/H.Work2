@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Money Master</h1>
+        <img src="img/Money.png" alt="">
+    </header>
+
+    <main>
+        <div class="div1">
+
+        </div>
+
+        <div class="div2">
+
+            <div class="div11">
+                <h3>Income</h3>
+                <div class="div12">
+                    <label for="income">Income :</label>
+                    <input type="number" id="income">
+                </div>
+            </div>
+
+            <div class="div111">
+                <h3>Expenses</h3>
+                <div class="div12">
+                    <label for="food">Food :</label>
+                    <input type="number" id="food">
+                </div>
+
+                <div class="div12">
+                    <label for="rent">Rent :</label>
+                    <input type="number" id="rent">
+                </div>
+
+                <div class="div12">
+                    <label for="clothes">Clothes :</label>
+                    <input type="number" id="clothes">
+                </div>
+            </div>
+
+            <button class="btn-1" id="btn-1">
+                Calculate
+            </button>
+
+            <h3 align="center">Total Expenses : <span id="tex">00</span></h3>
+            <h3 align="center"> Balance : <span id="bal">00</span></h3>
+            
+            <div class="div121">
+                <div class="div1211">
+                    <label for="save">Save :</label>
+                    <input type="number" id="save">
+                </div>
+                <p>%</p>
+                <button id="btn-2">
+                    Save
+                </button>
+
+            </div>
+            
+            <h3 align="center">Saving Amount : <span id="save1">00</span></h3>
+            <h3 align="center">Remaining Balance : <span id="reb">00</span></h3>
+        </div>
+    </main>
+ 
+    
+
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
